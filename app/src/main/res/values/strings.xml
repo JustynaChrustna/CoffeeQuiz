@@ -47,4 +47,8 @@
     <string name="q11c">Robusta</string>
     <string name="q11d">Liberica</string>
     <string name="q11e">Oolong</string>
+    <string name="Toast1">"Gratulacje "</string>
+    <string name="toast2">"! Twój wynik to: "</string>
+    <string name="Toast3">/11</string>
+    <string name="buttonText">zakończ</string>
 </resources>

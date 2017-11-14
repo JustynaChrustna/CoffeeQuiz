@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 String totalScore=String.valueOf(score);
-                Toast.makeText(MainActivity.this, "Gratulacje " +name.getText()+ "! Twój wynik to: "+totalScore+ "/11", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, getString(R.string.Toast1) +name.getText()+ getString(R.string.toast2)+totalScore+ getString(R.string.Toast3), Toast.LENGTH_LONG).show();
                 score=0;
                 }
         });
