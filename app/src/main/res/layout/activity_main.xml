@@ -29,7 +29,8 @@
                 android:textSize="16sp"
                 android:textColor="@android:color/black"
                 android:inputType="textCapSentences"
-                android:maxLines="1"/>
+                android:maxLines="1"
+                android:id="@+id/name"/>
 
 
         </LinearLayout>
@@ -50,7 +51,8 @@
                 style="@style/radio_button_style" />
             <RadioButton
                 style="@style/radio_button_style"
-                android:text="@string/q1b"/>
+                android:text="@string/q1b"
+                android:id="@+id/q1"/>
             <RadioButton
                 style="@style/radio_button_style"
                 android:text="@string/q1c"/>
@@ -71,13 +73,15 @@
                 <RadioButton
                     android:text="@string/q2a"
 
+
                     style="@style/radio_button_style" />
                 <RadioButton
                     style="@style/radio_button_style"
                     android:text="@string/q2b"/>
                 <RadioButton
                     style="@style/radio_button_style"
-                    android:text="@string/q2c"/>
+                    android:text="@string/q2c"
+                    android:id="@+id/q2"/>
             </RadioGroup>
 
         </LinearLayout>
@@ -100,7 +104,8 @@
                 style="@style/radio_button_style" />
             <RadioButton
                 style="@style/radio_button_style"
-                android:text="@string/q3b"/>
+                android:text="@string/q3b"
+                android:id="@+id/q3"/>
             <RadioButton
                 style="@style/radio_button_style"
                 android:text="@string/q3c"/>
@@ -124,7 +129,8 @@
                     style="@style/radio_button_style" />
                 <RadioButton
                     style="@style/radio_button_style"
-                    android:text="@string/q4b"/>
+                    android:text="@string/q4b"
+                    android:id="@+id/q4"/>
                 <RadioButton
                     style="@style/radio_button_style"
                     android:text="@string/q4c"/>
@@ -135,8 +141,7 @@
             style="@style/cofee_beans_style" />
 
 
-    <ImageView
-        style="@style/cofee_beans_style" />
+
     <LinearLayout style="@style/question_layout_style">
         <TextView
             android:text="@string/q5"
@@ -155,7 +160,8 @@
                 android:text="@string/q5b"/>
             <RadioButton
                 style="@style/radio_button_style"
-                android:text="@string/q5c"/>
+                android:text="@string/q5c"
+                android:id="@+id/q5"/>
         </RadioGroup>
 
     </LinearLayout>
@@ -172,7 +178,7 @@
                 >
                 <RadioButton
                     android:text="@string/q6a"
-
+                    android:id="@+id/q6"
                     style="@style/radio_button_style" />
                 <RadioButton
                     style="@style/radio_button_style"
@@ -200,7 +206,8 @@
                     style="@style/radio_button_style" />
                 <RadioButton
                     style="@style/radio_button_style"
-                    android:text="@string/q7b"/>
+                    android:text="@string/q7b"
+                    android:id="@+id/q7"/>
                 <RadioButton
                     style="@style/radio_button_style"
                     android:text="@string/q7c"/>
@@ -227,7 +234,8 @@
                     android:text="@string/q8b"/>
                 <RadioButton
                     style="@style/radio_button_style"
-                    android:text="@string/q8c"/>
+                    android:text="@string/q8c"
+                    android:id="@+id/q8"/>
             </RadioGroup>
 
         </LinearLayout>
@@ -244,6 +252,7 @@
                 >
                 <RadioButton
                     android:text="@string/q9a"
+                    android:id="@+id/q9"
 
                     style="@style/radio_button_style" />
                 <RadioButton
@@ -275,7 +284,8 @@
                     android:text="@string/q10b"/>
                 <RadioButton
                     style="@style/radio_button_style"
-                    android:text="@string/q10c"/>
+                    android:text="@string/q10c"
+                    android:id="@+id/q10"/>
             </RadioGroup>
 
         </LinearLayout>
@@ -289,6 +299,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q11a"
+                android:id="@+id/q11a"
                 style="@style/radio_button_style"/>
             <CheckBox
                 android:layout_width="wrap_content"
@@ -299,11 +310,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q11c"
+                android:id="@+id/q11c"
                 style="@style/radio_button_style"/>
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q11d"
+                android:id="@+id/q11d"
                 style="@style/radio_button_style"/>
             <CheckBox
                 android:layout_width="wrap_content"
@@ -320,7 +333,8 @@
             android:layout_height="wrap_content"
             android:text="zakończ"
             android:textAllCaps="true"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/button"/>
 
     <ImageView
         android:layout_width="match_parent"
