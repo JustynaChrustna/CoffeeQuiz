@@ -12,4 +12,4 @@ I created a coffee quiz app in two languages: English and Polish.
 Source of questions: http://www.dziennik.pl/quizy/357313,0,co-wiesz-o-kawie.html
 
 
-![](coffeeQuiz.gif.gif)   
+![](coffee.gif)   
