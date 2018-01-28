@@ -22,7 +22,8 @@
         <LinearLayout style="@style/question_layout_style">
             <TextView
                 android:text="@string/name"
-                style="@style/text_style" />
+                style="@style/text_style"
+                />
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -30,13 +31,15 @@
                 android:textColor="@android:color/black"
                 android:inputType="textCapSentences"
                 android:maxLines="1"
+
                 android:id="@+id/name"/>
 
 
         </LinearLayout>
         <ImageView
             style="@style/cofee_beans_style" />
-    <LinearLayout style="@style/question_layout_style">
+    <LinearLayout style="@style/question_layout_style"
+        >
         <TextView
             android:text="@string/q1"
             style="@style/text_style" />

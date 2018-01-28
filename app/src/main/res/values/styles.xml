@@ -29,6 +29,7 @@
         <item name="android:layout_margin">20dp</item>
         <item name="android:background">@drawable/border</item>
         <item name="android:elevation">6dp</item>
+        <item name="android:padding">8dp</item>
     </style>
 
     <style name="cofee_beans_style">
